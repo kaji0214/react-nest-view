@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1632490192736" clover="3.2.0">
+  <project timestamp="1632490192736" name="All files">
+    <metrics statements="23" coveredstatements="23" conditionals="12" coveredconditionals="9" methods="6" coveredmethods="6" elements="41" coveredelements="38" complexity="0" loc="23" ncloc="23" packages="2" files="3" classes="3"/>
+    <package name="components">
+      <metrics statements="12" coveredstatements="12" conditionals="12" coveredconditionals="9" methods="4" coveredmethods="4"/>
+      <file name="ReactNestView.tsx" path="/Users/private/PhpstormProjects/react-nest-view/src/components/ReactNestView.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+      </file>
+      <file name="ReactNestViewNode.tsx" path="/Users/private/PhpstormProjects/react-nest-view/src/components/ReactNestViewNode.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="9" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="stories">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ReactNestView.stories.tsx" path="/Users/private/PhpstormProjects/react-nest-view/src/stories/ReactNestView.stories.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
