@@ -80,7 +80,7 @@
     "lint": "run-p -l -c --aggregate-output lint:*",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
-    "prepublish:public": "npm run build && npm run bump-version",
+    "prepublish:public": "npm run build",
     "publish:public": "npm publish --access public"
   },
   "repository": {

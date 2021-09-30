@@ -11,6 +11,7 @@ const production = !process.env.ROLLUP_WATCH
 
 export default {
   input: 'src/index.ts',
+  external: ['react', 'react-dom'],
   output: [
     {
       file: pkg.main,
@@ -26,9 +27,6 @@ export default {
     commonjs(), // converts date-fns to ES modules
     production && terser(), // minify, but only in production
     typescript({config: './tsconfig.json'}),
-    babel({
-      exclude: 'node_modules/**',
-      extensions,
-    }),
+    babel({ extensions, include: ['src/**/*'] }),
   ],
 }
