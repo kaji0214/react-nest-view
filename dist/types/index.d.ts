@@ -1,2 +1,2 @@
-export * from './ReactNestView'
-export { default as ReactNestView } from './ReactNestView'
+export * from './ReactNestView';
+export { default as ReactNestView } from './ReactNestView';
