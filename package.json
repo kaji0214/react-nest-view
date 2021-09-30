@@ -1,6 +1,6 @@
 {
   "name": "react-nest-view",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Render nested view with react",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
